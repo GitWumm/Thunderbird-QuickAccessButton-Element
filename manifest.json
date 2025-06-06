@@ -1,1 +1,21 @@
-
+{
+  "manifest_version": 2,
+  "name": "Element - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Element.",
+  "version": "1.0",
+  "author": "GitWumm",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "Wumm.element-qa@addons.thunderbird.net",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "256": "element.png"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
